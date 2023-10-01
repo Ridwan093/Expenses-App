@@ -1,0 +1,4 @@
+#Sat Sep 30 13:48:05 WAT 2023
+base.0=/Users/mac/flutter_project/expense_management1/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
