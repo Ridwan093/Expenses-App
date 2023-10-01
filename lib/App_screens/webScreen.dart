@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:expense_management1/App_settings/commons.dart';
-import 'package:expense_management1/Layout_managment/app_widget/customise_dialog.dart';
-import 'package:expense_management1/Layout_managment/app_widget/fiter_withDate.dart';
-import 'package:expense_management1/model/database_model.dart';
+import 'package:expenses_app/App_settings/commons.dart';
+import 'package:expenses_app/Layout_managment/app_widget/customise_dialog.dart';
+import 'package:expenses_app/Layout_managment/app_widget/fiter_withDate.dart';
+import 'package:expenses_app/model/database_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -20,7 +20,7 @@ class WebScreen extends StatefulWidget {
 class _WebScreenState extends State<WebScreen>
     with SingleTickerProviderStateMixin {
   final DateFormat _dateFormat = DateFormat('yyyy-MM-dd');
-  Duration _duration = Duration(milliseconds: 1000);
+  final Duration _duration = const Duration(milliseconds: 1000);
   String selectedCategory = 'Pound';
   String prirorty = 'High';
   final TextEditingController _titleController = TextEditingController();
